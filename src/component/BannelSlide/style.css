@@ -1,0 +1,37 @@
+/* Custom Pagination Styles */
+.banner-swiper {
+    padding-bottom: 25px !important;
+    /* Make space for bullets below image */
+}
+
+.banner-swiper .swiper-pagination {
+    bottom: 0px !important;
+    /* Sit at the very bottom of the container */
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-swiper .swiper-pagination-bullet {
+    width: 6px;
+    height: 6px;
+    background: #d1d5db;
+    /* Light gray for inactive */
+    opacity: 1;
+    /* Solid color */
+    margin: 0 4px !important;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.banner-swiper .swiper-pagination-bullet-active {
+    width: 24px;
+    /* Longer active line */
+    height: 6px;
+    border-radius: 4px;
+    background: #000000;
+    /* Black for active */
+    opacity: 1;
+}
